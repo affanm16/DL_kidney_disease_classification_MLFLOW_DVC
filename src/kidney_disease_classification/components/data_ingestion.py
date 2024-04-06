@@ -2,7 +2,7 @@ import os
 import zipfile
 import gdown
 from kidney_disease_classification import logger
-from kidney_disease_classification.utils.common import get_size
+# from kidney_disease_classification.utils.common import get_size
 from kidney_disease_classification.entity.config_entity import (DataIngestionConfig)
 
 

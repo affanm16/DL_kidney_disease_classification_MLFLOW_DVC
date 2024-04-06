@@ -1,3 +1,24 @@
 [2024-04-05 17:00:41,835: INFO: main: welcome to our custom classifier]
 [2024-04-05 17:02:54,302: INFO: main: welcome to our custom classifier]
 [2024-04-06 10:58:04,824: INFO: main: welcome to our custom classifier]
+[2024-04-06 22:43:14,613: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-04-06 22:43:16,355: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-06 22:43:16,355: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 22:43:16,370: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 22:43:16,370: INFO: common: created directory at: artifacts]
+[2024-04-06 22:43:16,370: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-06 22:43:16,370: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 22:43:29,061: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 22:43:29,860: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-06 22:43:29,860: INFO: main: *******************]
+[2024-04-06 22:43:29,860: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-06 22:43:29,860: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 22:43:29,860: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-06 22:43:29,860: INFO: common: created directory at: artifacts]
+[2024-04-06 22:43:29,860: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-06 22:43:30,518: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-06 22:43:30,722: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
