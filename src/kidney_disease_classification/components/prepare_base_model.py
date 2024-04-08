@@ -11,7 +11,7 @@ class PrepareBaseModel:
         self.config = config
 
     
-    def get_base_model(self):
+    def get_base_model(self): #for downloading the keras model its a predefined code
         self.model = tf.keras.applications.vgg16.VGG16(
             input_shape=self.config.params_image_size,
             weights=self.config.params_weights,
@@ -45,7 +45,6 @@ class PrepareBaseModel:
         full_model.compile(
             optimizer=tf.keras.optimizers.SGD(learning_rate=learning_rate),
             loss=tf.keras.losses.CategoricalCrossentropy(),
-            reduction='auto',
             metrics=["accuracy"]
         )
 
@@ -68,4 +67,7 @@ class PrepareBaseModel:
         
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
-        model.save(path)
+        # Add the .keras extension to the file path
+        keras_path = str(path) + ".keras"
+        # Save the model in the native Keras format (.keras)
+        tf.keras.models.save_model(model, keras_path)

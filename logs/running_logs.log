@@ -56,3 +56,58 @@ Traceback (most recent call last):
   File "D:\applications\anaconda3\Lib\site-packages\keras\engine\training.py", line 3597, in _validate_compile
     raise TypeError(
 TypeError: Invalid keyword argument(s) in `compile()`: ({'reduction'},). Valid keyword arguments include "cloning", "experimental_run_tf_function", "distribute", "target_tensors", or "sample_weight_mode".
+[2024-04-08 11:29:37,413: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-04-08 11:29:37,852: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-08 11:29:37,852: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-08 11:29:37,868: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-08 11:29:37,868: INFO: common: created directory at: artifacts]
+[2024-04-08 11:29:37,868: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-08 11:29:37,868: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-08 11:29:49,137: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-08 11:29:50,835: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-08 11:29:50,835: INFO: main: *******************]
+[2024-04-08 11:29:50,835: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-08 11:29:50,851: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-08 11:29:50,851: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-08 11:29:50,851: INFO: common: created directory at: artifacts]
+[2024-04-08 11:29:50,851: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-08 11:29:52,041: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-08 11:29:52,292: ERROR: main: Invalid keyword argument(s) in `compile()`: ({'reduction'},). Valid keyword arguments include "cloning", "experimental_run_tf_function", "distribute", "target_tensors", or "sample_weight_mode".]
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DL_kidney_disease_classification_MLFLOW_DVC\main.py", line 21, in <module>
+    prepare_base_model.main()
+  File "c:\users\hp\desktop\dl_kidney_disease_classification_mlflow_dvc\src\kidney_disease_classification\pipeline\stage_02_prepare_base_model.py", line 18, in main
+    prepare_base_model.update_base_model()
+  File "c:\users\hp\desktop\dl_kidney_disease_classification_mlflow_dvc\src\kidney_disease_classification\components\prepare_base_model.py", line 57, in update_base_model
+    self.full_model = self._prepare_full_model(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\hp\desktop\dl_kidney_disease_classification_mlflow_dvc\src\kidney_disease_classification\components\prepare_base_model.py", line 45, in _prepare_full_model
+    full_model.compile(
+  File "D:\applications\anaconda3\Lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "D:\applications\anaconda3\Lib\site-packages\keras\engine\training.py", line 3597, in _validate_compile
+    raise TypeError(
+TypeError: Invalid keyword argument(s) in `compile()`: ({'reduction'},). Valid keyword arguments include "cloning", "experimental_run_tf_function", "distribute", "target_tensors", or "sample_weight_mode".
+[2024-04-08 12:24:50,698: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-04-08 12:24:52,276: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-08 12:24:52,276: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-08 12:24:52,276: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-08 12:24:52,276: INFO: common: created directory at: artifacts]
+[2024-04-08 12:24:52,276: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-08 12:24:52,276: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-08 12:25:06,042: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-08 12:25:07,726: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-08 12:25:07,726: INFO: main: *******************]
+[2024-04-08 12:25:07,726: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-08 12:25:07,726: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-08 12:25:07,726: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-08 12:25:07,726: INFO: common: created directory at: artifacts]
+[2024-04-08 12:25:07,726: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-08 12:25:09,008: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-08 12:25:09,527: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
