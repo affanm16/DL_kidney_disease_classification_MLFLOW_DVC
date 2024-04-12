@@ -2,7 +2,7 @@ from kidney_disease_classification import logger
 from kidney_disease_classification.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline 
 from kidney_disease_classification.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from kidney_disease_classification.pipeline.stage_03_model_training import ModelTrainingPipeline
-from kidney_disease_classification.pipeline.stage_04_model_evaluation import EvaluationPipeline
+from kidney_disease_classification.pipeline.stage_04_model_evaluation import EvaluationPipeline 
 
 STAGE_NAME = "Data Ingestion stage"
 try:
