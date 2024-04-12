@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/moham/OneDrive/Desktop/DL_kidney_disease_classification_MLFLOW_DVC/mlruns/0/b06965bdcfbd4e6b8522528c5db13694/artifacts
+end_time: 1712920403673
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b06965bdcfbd4e6b8522528c5db13694
+run_name: auspicious-stoat-69
+run_uuid: b06965bdcfbd4e6b8522528c5db13694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712920394044
+status: 3
+tags: []
+user_id: moham
