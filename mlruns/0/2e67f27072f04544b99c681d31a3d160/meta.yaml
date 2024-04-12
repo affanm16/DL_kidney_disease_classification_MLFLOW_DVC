@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/moham/OneDrive/Desktop/DL_kidney_disease_classification_MLFLOW_DVC/mlruns/0/2e67f27072f04544b99c681d31a3d160/artifacts
+end_time: 1712921542372
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2e67f27072f04544b99c681d31a3d160
+run_name: puzzled-crane-440
+run_uuid: 2e67f27072f04544b99c681d31a3d160
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712921534626
+status: 3
+tags: []
+user_id: moham
