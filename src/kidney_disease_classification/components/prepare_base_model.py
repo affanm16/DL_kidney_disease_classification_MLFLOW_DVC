@@ -67,7 +67,4 @@ class PrepareBaseModel:
         
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
-        # Add the .keras extension to the file path
-        keras_path = str(path) + ".keras"
-        # Save the model in the native Keras format (.keras)
-        tf.keras.models.save_model(model, keras_path)
+        model.save(path)
