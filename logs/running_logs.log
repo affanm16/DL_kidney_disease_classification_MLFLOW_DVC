@@ -841,3 +841,40 @@ OSError: No file or directory found at model\model.h5
 [2024-04-12 21:04:18,233: INFO: _internal: [33mPress CTRL+C to quit[0m]
 [2024-04-12 21:04:27,597: INFO: _internal: 127.0.0.1 - - [12/Apr/2024 21:04:27] "GET / HTTP/1.1" 200 -]
 [2024-04-12 21:04:36,352: INFO: _internal: 127.0.0.1 - - [12/Apr/2024 21:04:36] "POST /predict HTTP/1.1" 200 -]
+[2024-04-13 20:25:50,213: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.106:8080]
+[2024-04-13 20:25:50,213: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-13 20:26:18,678: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:26:18] "GET / HTTP/1.1" 200 -]
+[2024-04-13 20:26:42,957: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:26:42] "POST /predict HTTP/1.1" 200 -]
+[2024-04-13 20:26:54,013: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:26:54] "POST /predict HTTP/1.1" 200 -]
+[2024-04-13 20:29:36,989: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:29:36] "GET / HTTP/1.1" 200 -]
+[2024-04-13 20:29:38,337: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:29:38] "GET / HTTP/1.1" 200 -]
+[2024-04-13 20:29:39,282: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:29:39] "GET / HTTP/1.1" 200 -]
+[2024-04-13 20:30:09,756: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.106:8080]
+[2024-04-13 20:30:09,760: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-13 20:30:17,515: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:30:17] "GET / HTTP/1.1" 200 -]
+[2024-04-13 20:38:26,986: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.106:8080]
+[2024-04-13 20:38:26,987: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-13 20:38:31,274: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:38:31] "GET / HTTP/1.1" 200 -]
+[2024-04-13 20:38:36,382: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:38:36] "GET / HTTP/1.1" 200 -]
+[2024-04-13 20:39:19,832: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.106:8080]
+[2024-04-13 20:39:19,832: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-13 20:39:23,078: INFO: _internal: 127.0.0.1 - - [13/Apr/2024 20:39:23] "GET / HTTP/1.1" 200 -]
+[2024-04-13 20:41:49,522: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.106:8080]
+[2024-04-13 20:41:49,523: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-04-13 20:41:54,249: INFO: _internal: 192.168.0.106 - - [13/Apr/2024 20:41:54] "GET / HTTP/1.1" 200 -]
+[2024-04-13 20:42:07,625: INFO: _internal: 192.168.0.106 - - [13/Apr/2024 20:42:07] "POST /predict HTTP/1.1" 200 -]
